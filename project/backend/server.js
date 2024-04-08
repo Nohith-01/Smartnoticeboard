@@ -9,11 +9,20 @@ const adminRoutes = require('./src/routes/adminRouter')
 require('dotenv').config();
 
 app.use(cors({
-  origin: process.env.CORS_ORIGIN,
+  //origin: process.env.CORS_ORIGIN,
+  origin: {"https://smartnoticeboard-1whq.vercel.app"},
+  methods: ["POST", "GET"],
   credentials: true
-}))
+}));
 
 app.use(express.json());
+
+mongoose.connect(
+
+
+app.get("/", (req, res) => {
+    res.json("Hello");
+})
 app.use((req, res, next) => {
   console.log(req.path, req.method);
   next();
