@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e18e7248.css",
+    "main.js": "/static/js/main.fd801c2d.js",
+    "static/media/Logo.jpg": "/static/media/Logo.f18f1b4fe02e5653f5cf.jpg",
+    "static/media/college_pic.jpeg.jpg": "/static/media/college_pic.jpeg.991d7dd98881881a8d0c.jpg",
+    "static/media/chairman.jpg": "/static/media/chairman.0d73710ede9d58c02cc5.jpg",
+    "index.html": "/index.html",
+    "main.e18e7248.css.map": "/static/css/main.e18e7248.css.map",
+    "main.fd801c2d.js.map": "/static/js/main.fd801c2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e18e7248.css",
+    "static/js/main.fd801c2d.js"
+  ]
+}
